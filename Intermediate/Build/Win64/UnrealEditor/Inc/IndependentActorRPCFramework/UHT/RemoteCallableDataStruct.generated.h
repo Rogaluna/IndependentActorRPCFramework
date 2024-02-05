@@ -1,0 +1,117 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "RemoteCallableDataStruct.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef INDEPENDENTACTORRPCFRAMEWORK_RemoteCallableDataStruct_generated_h
+#error "RemoteCallableDataStruct.generated.h already included, missing '#pragma once' in RemoteCallableDataStruct.h"
+#endif
+#define INDEPENDENTACTORRPCFRAMEWORK_RemoteCallableDataStruct_generated_h
+
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_12_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FRemoteCallableData_Statics; \
+	INDEPENDENTACTORRPCFRAMEWORK_API static class UScriptStruct* StaticStruct();
+
+
+template<> INDEPENDENTACTORRPCFRAMEWORK_API UScriptStruct* StaticStruct<struct FRemoteCallableData>();
+
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_SPARSE_DATA
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDataConvertVector2D); \
+	DECLARE_FUNCTION(execParseJsonString); \
+	DECLARE_FUNCTION(execCreateJsonString);
+
+
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDataConvertVector2D); \
+	DECLARE_FUNCTION(execParseJsonString); \
+	DECLARE_FUNCTION(execCreateJsonString);
+
+
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_ACCESSORS
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURomoteCallableBlueprintFunctionLibrary(); \
+	friend struct Z_Construct_UClass_URomoteCallableBlueprintFunctionLibrary_Statics; \
+public: \
+	DECLARE_CLASS(URomoteCallableBlueprintFunctionLibrary, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/IndependentActorRPCFramework"), NO_API) \
+	DECLARE_SERIALIZER(URomoteCallableBlueprintFunctionLibrary)
+
+
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_INCLASS \
+private: \
+	static void StaticRegisterNativesURomoteCallableBlueprintFunctionLibrary(); \
+	friend struct Z_Construct_UClass_URomoteCallableBlueprintFunctionLibrary_Statics; \
+public: \
+	DECLARE_CLASS(URomoteCallableBlueprintFunctionLibrary, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/IndependentActorRPCFramework"), NO_API) \
+	DECLARE_SERIALIZER(URomoteCallableBlueprintFunctionLibrary)
+
+
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URomoteCallableBlueprintFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URomoteCallableBlueprintFunctionLibrary) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URomoteCallableBlueprintFunctionLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URomoteCallableBlueprintFunctionLibrary); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URomoteCallableBlueprintFunctionLibrary(URomoteCallableBlueprintFunctionLibrary&&); \
+	NO_API URomoteCallableBlueprintFunctionLibrary(const URomoteCallableBlueprintFunctionLibrary&); \
+public: \
+	NO_API virtual ~URomoteCallableBlueprintFunctionLibrary();
+
+
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URomoteCallableBlueprintFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URomoteCallableBlueprintFunctionLibrary(URomoteCallableBlueprintFunctionLibrary&&); \
+	NO_API URomoteCallableBlueprintFunctionLibrary(const URomoteCallableBlueprintFunctionLibrary&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URomoteCallableBlueprintFunctionLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URomoteCallableBlueprintFunctionLibrary); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URomoteCallableBlueprintFunctionLibrary) \
+	NO_API virtual ~URomoteCallableBlueprintFunctionLibrary();
+
+
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_22_PROLOG
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_SPARSE_DATA \
+	FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_RPC_WRAPPERS \
+	FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_ACCESSORS \
+	FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_INCLASS \
+	FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_SPARSE_DATA \
+	FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_ACCESSORS \
+	FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_INCLASS_NO_PURE_DECLS \
+	FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h_25_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> INDEPENDENTACTORRPCFRAMEWORK_API UClass* StaticClass<class URomoteCallableBlueprintFunctionLibrary>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_XediaDocument_Project_Unreal_5_2_PluginDev_Plugins_IndependentActorRPCFramework_Source_IndependentActorRPCFramework_Public_RemoteCallableDataStruct_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

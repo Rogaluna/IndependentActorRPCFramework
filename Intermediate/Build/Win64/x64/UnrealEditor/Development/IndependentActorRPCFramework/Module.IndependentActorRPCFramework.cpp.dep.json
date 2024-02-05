@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\independentactorrpcframework\\module.independentactorrpcframework.cpp",
+        "ProvidedModule": "",
+        "PCH": "z:\\xediasoftware\\tool\\unrealengine\\ue5.2.1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\independentactorrpcframework\\definitions.independentactorrpcframework.h",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\intermediate\\build\\win64\\unrealeditor\\inc\\independentactorrpcframework\\uht\\independentactorrpcframework.init.gen.cpp",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\intermediate\\build\\win64\\unrealeditor\\inc\\independentactorrpcframework\\uht\\remotecallableactorinterface.gen.cpp",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\source\\independentactorrpcframework\\public\\remotecallableactorinterface.h",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\source\\independentactorrpcframework\\public\\remotecallabledatastruct.h",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\intermediate\\build\\win64\\unrealeditor\\inc\\independentactorrpcframework\\uht\\remotecallabledatastruct.generated.h",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\intermediate\\build\\win64\\unrealeditor\\inc\\independentactorrpcframework\\uht\\remotecallableactorinterface.generated.h",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\intermediate\\build\\win64\\unrealeditor\\inc\\independentactorrpcframework\\uht\\remotecallablecontrollerinterface.gen.cpp",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\source\\independentactorrpcframework\\public\\remotecallablecontrollerinterface.h",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\intermediate\\build\\win64\\unrealeditor\\inc\\independentactorrpcframework\\uht\\remotecallablecontrollerinterface.generated.h",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\intermediate\\build\\win64\\unrealeditor\\inc\\independentactorrpcframework\\uht\\remotecallabledatastruct.gen.cpp",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\source\\independentactorrpcframework\\private\\independentactorrpcframework.cpp",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\source\\independentactorrpcframework\\public\\independentactorrpcframework.h",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\source\\independentactorrpcframework\\private\\remotecallableactorinterface.cpp",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\source\\independentactorrpcframework\\private\\remotecallablecontrollerinterface.cpp",
+            "z:\\xediadocument\\project\\unreal\\5.2\\plugindev\\plugins\\independentactorrpcframework\\source\\independentactorrpcframework\\private\\remotecallabledatastruct.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
